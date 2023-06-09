@@ -1,0 +1,9 @@
+file(REMOVE_RECURSE
+  "/home/jetson/ard_ros_motor/devel/share/common-lisp/ros/drivetrain/msg/Speed.lisp"
+  "CMakeFiles/drivetrain_generate_messages_lisp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/drivetrain_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
