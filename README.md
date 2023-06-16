@@ -55,4 +55,8 @@ Below is the minimum viable implementation of the rover
 
 ![odyssey2023 drawio](https://github.com/Uvic-Robotics-Club/ROS-rover/assets/42494981/f1491431-38e9-40fb-b39e-d3e123ff292f)
 
+step 1 source devel/setup.bash on all terminals opened
+step 2 one terminal roscore
+step 3 one terminal rosrun rosserial_python serial_node.py /dev/ttyACM0
+step 4 send a message using rostopic pub motor_cmd std_msgs/Int16 "data: 0"
 
