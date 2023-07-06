@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jetson/ard_ros_motor/devel/include/drivetrain/Speed.h"
+  "/home/jetson/Autonomous_Rover/devel/include/drivetrain/Speed.h"
   "CMakeFiles/drivetrain_generate_messages_cpp"
 )
 

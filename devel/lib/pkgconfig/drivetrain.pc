@@ -1,8 +1,8 @@
-prefix=/home/jetson/ard_ros_motor/devel
+prefix=/home/jetson/Autonomous_Rover/devel
 
 Name: drivetrain
 Description: Description of drivetrain
 Version: 0.0.0
-Cflags: -I/home/jetson/ard_ros_motor/devel/include
+Cflags: -I/home/jetson/Autonomous_Rover/devel/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime

@@ -6,7 +6,7 @@ from os import path as os_path
 from pkgutil import extend_path
 from sys import path as sys_path
 
-__extended_path = '/home/jetson/ard_ros_motor/src/drivetrain/src'.split(';')
+__extended_path = '/home/jetson/Autonomous_Rover/src/drivetrain/src'.split(';')
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

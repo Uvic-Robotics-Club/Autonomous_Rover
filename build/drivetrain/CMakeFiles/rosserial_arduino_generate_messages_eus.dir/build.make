@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ard_ros_motor/src
+CMAKE_SOURCE_DIR = /home/jetson/Autonomous_Rover/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ard_ros_motor/build
+CMAKE_BINARY_DIR = /home/jetson/Autonomous_Rover/build
 
 # Utility rule file for rosserial_arduino_generate_messages_eus.
 
@@ -63,10 +63,10 @@ drivetrain/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/build: rosseri
 .PHONY : drivetrain/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/build
 
 drivetrain/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/clean:
-	cd /home/jetson/ard_ros_motor/build/drivetrain && $(CMAKE_COMMAND) -P CMakeFiles/rosserial_arduino_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/jetson/Autonomous_Rover/build/drivetrain && $(CMAKE_COMMAND) -P CMakeFiles/rosserial_arduino_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : drivetrain/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/clean
 
 drivetrain/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/depend:
-	cd /home/jetson/ard_ros_motor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ard_ros_motor/src /home/jetson/ard_ros_motor/src/drivetrain /home/jetson/ard_ros_motor/build /home/jetson/ard_ros_motor/build/drivetrain /home/jetson/ard_ros_motor/build/drivetrain/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/Autonomous_Rover/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/Autonomous_Rover/src /home/jetson/Autonomous_Rover/src/drivetrain /home/jetson/Autonomous_Rover/build /home/jetson/Autonomous_Rover/build/drivetrain /home/jetson/Autonomous_Rover/build/drivetrain/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : drivetrain/CMakeFiles/rosserial_arduino_generate_messages_eus.dir/depend
 

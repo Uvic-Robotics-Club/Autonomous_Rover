@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/jetson/ard_ros_motor/install/setup.sh
+    local-name: /home/jetson/Autonomous_Rover/install/setup.sh

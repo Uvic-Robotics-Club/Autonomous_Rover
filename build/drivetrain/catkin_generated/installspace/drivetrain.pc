@@ -1,4 +1,4 @@
-prefix=/home/jetson/ard_ros_motor/install
+prefix=/home/jetson/Autonomous_Rover/install
 
 Name: drivetrain
 Description: Description of drivetrain

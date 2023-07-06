@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jetson/ard_ros_motor/devel/lib/python3/dist-packages/drivetrain/msg/_Speed.py"
-  "/home/jetson/ard_ros_motor/devel/lib/python3/dist-packages/drivetrain/msg/__init__.py"
+  "/home/jetson/Autonomous_Rover/devel/lib/python3/dist-packages/drivetrain/msg/_Speed.py"
+  "/home/jetson/Autonomous_Rover/devel/lib/python3/dist-packages/drivetrain/msg/__init__.py"
   "CMakeFiles/drivetrain_generate_messages_py"
 )
 

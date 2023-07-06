@@ -67,14 +67,14 @@ set(drivetrain_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(drivetrain_SOURCE_PREFIX /home/jetson/ard_ros_motor/src/drivetrain)
-  set(drivetrain_DEVEL_PREFIX /home/jetson/ard_ros_motor/devel)
+  set(drivetrain_SOURCE_PREFIX /home/jetson/Autonomous_Rover/src/drivetrain)
+  set(drivetrain_DEVEL_PREFIX /home/jetson/Autonomous_Rover/devel)
   set(drivetrain_INSTALL_PREFIX "")
   set(drivetrain_PREFIX ${drivetrain_DEVEL_PREFIX})
 else()
   set(drivetrain_SOURCE_PREFIX "")
   set(drivetrain_DEVEL_PREFIX "")
-  set(drivetrain_INSTALL_PREFIX /home/jetson/ard_ros_motor/install)
+  set(drivetrain_INSTALL_PREFIX /home/jetson/Autonomous_Rover/install)
   set(drivetrain_PREFIX ${drivetrain_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jetson/ard_ros_motor/install/lib;/home/jetson/catkin_ws/devel/lib;/home/jetson/ROS-rover/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/jetson/Autonomous_Rover/install/lib;/home/jetson/Autonomous_Rover/devel/lib;/home/jetson/ROS-rover/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

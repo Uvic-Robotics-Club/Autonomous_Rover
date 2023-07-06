@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ard_ros_motor/src
+CMAKE_SOURCE_DIR = /home/jetson/Autonomous_Rover/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ard_ros_motor/build
+CMAKE_BINARY_DIR = /home/jetson/Autonomous_Rover/build
 
 # Utility rule file for drivetrain_src.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jetson/ard_ros_motor/build
 include drivetrain/CMakeFiles/drivetrain_src.dir/progress.make
 
 drivetrain/CMakeFiles/drivetrain_src:
-	cd /home/jetson/ard_ros_motor/build/drivetrain/src && /usr/bin/cmake /home/jetson/ard_ros_motor/src/drivetrain/src -DROS_LIB_DIR=/home/jetson/ard_ros_motor/build/drivetrain/ros_lib -DEXECUTABLE_OUTPUT_PATH=/home/jetson/ard_ros_motor/devel/share/drivetrain -DCMAKE_TOOLCHAIN_FILE=/home/jetson/ROS-rover/src/rosserial/rosserial_arduino/arduino-cmake/cmake/ArduinoToolchain.cmake
+	cd /home/jetson/Autonomous_Rover/build/drivetrain/src && /usr/bin/cmake /home/jetson/Autonomous_Rover/src/drivetrain/src -DROS_LIB_DIR=/home/jetson/Autonomous_Rover/build/drivetrain/ros_lib -DEXECUTABLE_OUTPUT_PATH=/home/jetson/Autonomous_Rover/devel/share/drivetrain -DCMAKE_TOOLCHAIN_FILE=/home/jetson/ROS-rover/src/rosserial/rosserial_arduino/arduino-cmake/cmake/ArduinoToolchain.cmake
 
 drivetrain_src: drivetrain/CMakeFiles/drivetrain_src
 drivetrain_src: drivetrain/CMakeFiles/drivetrain_src.dir/build.make
@@ -67,10 +67,10 @@ drivetrain/CMakeFiles/drivetrain_src.dir/build: drivetrain_src
 .PHONY : drivetrain/CMakeFiles/drivetrain_src.dir/build
 
 drivetrain/CMakeFiles/drivetrain_src.dir/clean:
-	cd /home/jetson/ard_ros_motor/build/drivetrain && $(CMAKE_COMMAND) -P CMakeFiles/drivetrain_src.dir/cmake_clean.cmake
+	cd /home/jetson/Autonomous_Rover/build/drivetrain && $(CMAKE_COMMAND) -P CMakeFiles/drivetrain_src.dir/cmake_clean.cmake
 .PHONY : drivetrain/CMakeFiles/drivetrain_src.dir/clean
 
 drivetrain/CMakeFiles/drivetrain_src.dir/depend:
-	cd /home/jetson/ard_ros_motor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ard_ros_motor/src /home/jetson/ard_ros_motor/src/drivetrain /home/jetson/ard_ros_motor/build /home/jetson/ard_ros_motor/build/drivetrain /home/jetson/ard_ros_motor/build/drivetrain/CMakeFiles/drivetrain_src.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/Autonomous_Rover/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/Autonomous_Rover/src /home/jetson/Autonomous_Rover/src/drivetrain /home/jetson/Autonomous_Rover/build /home/jetson/Autonomous_Rover/build/drivetrain /home/jetson/Autonomous_Rover/build/drivetrain/CMakeFiles/drivetrain_src.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : drivetrain/CMakeFiles/drivetrain_src.dir/depend
 

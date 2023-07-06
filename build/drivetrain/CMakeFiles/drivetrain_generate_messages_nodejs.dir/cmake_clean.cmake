@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jetson/ard_ros_motor/devel/share/gennodejs/ros/drivetrain/msg/Speed.js"
+  "/home/jetson/Autonomous_Rover/devel/share/gennodejs/ros/drivetrain/msg/Speed.js"
   "CMakeFiles/drivetrain_generate_messages_nodejs"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jetson/ard_ros_motor/devel/share/roseus/ros/drivetrain/manifest.l"
-  "/home/jetson/ard_ros_motor/devel/share/roseus/ros/drivetrain/msg/Speed.l"
+  "/home/jetson/Autonomous_Rover/devel/share/roseus/ros/drivetrain/manifest.l"
+  "/home/jetson/Autonomous_Rover/devel/share/roseus/ros/drivetrain/msg/Speed.l"
   "CMakeFiles/drivetrain_generate_messages_eus"
 )
 

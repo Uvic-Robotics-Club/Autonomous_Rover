@@ -1,2 +1,2 @@
-drivetrain
--DCATKIN_DEVEL_PREFIX=/home/jetson/ard_ros_motor/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/ard_ros_motor/install -G Unix Makefiles
+arduino_node:drivetrain:lidar:motor_controller
+-DCATKIN_DEVEL_PREFIX=/home/jetson/Autonomous_Rover/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/Autonomous_Rover/install -G Unix Makefiles

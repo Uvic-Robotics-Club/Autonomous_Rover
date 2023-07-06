@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ard_ros_motor/src
+CMAKE_SOURCE_DIR = /home/jetson/Autonomous_Rover/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ard_ros_motor/build
+CMAKE_BINARY_DIR = /home/jetson/Autonomous_Rover/build
 
 # Utility rule file for drivetrain_geneus.
 
@@ -63,10 +63,10 @@ drivetrain/CMakeFiles/drivetrain_geneus.dir/build: drivetrain_geneus
 .PHONY : drivetrain/CMakeFiles/drivetrain_geneus.dir/build
 
 drivetrain/CMakeFiles/drivetrain_geneus.dir/clean:
-	cd /home/jetson/ard_ros_motor/build/drivetrain && $(CMAKE_COMMAND) -P CMakeFiles/drivetrain_geneus.dir/cmake_clean.cmake
+	cd /home/jetson/Autonomous_Rover/build/drivetrain && $(CMAKE_COMMAND) -P CMakeFiles/drivetrain_geneus.dir/cmake_clean.cmake
 .PHONY : drivetrain/CMakeFiles/drivetrain_geneus.dir/clean
 
 drivetrain/CMakeFiles/drivetrain_geneus.dir/depend:
-	cd /home/jetson/ard_ros_motor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ard_ros_motor/src /home/jetson/ard_ros_motor/src/drivetrain /home/jetson/ard_ros_motor/build /home/jetson/ard_ros_motor/build/drivetrain /home/jetson/ard_ros_motor/build/drivetrain/CMakeFiles/drivetrain_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/Autonomous_Rover/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/Autonomous_Rover/src /home/jetson/Autonomous_Rover/src/drivetrain /home/jetson/Autonomous_Rover/build /home/jetson/Autonomous_Rover/build/drivetrain /home/jetson/Autonomous_Rover/build/drivetrain/CMakeFiles/drivetrain_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : drivetrain/CMakeFiles/drivetrain_geneus.dir/depend
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jetson/ard_ros_motor/devel/share/common-lisp/ros/drivetrain/msg/Speed.lisp"
+  "/home/jetson/Autonomous_Rover/devel/share/common-lisp/ros/drivetrain/msg/Speed.lisp"
   "CMakeFiles/drivetrain_generate_messages_lisp"
 )
 
