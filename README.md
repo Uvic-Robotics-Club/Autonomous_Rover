@@ -7,7 +7,7 @@ Clone this repository and build using the following commands below
 
 ```
 git clone <url> src 
-cd ROS-rover
+cd Autonomous_rover
 catkin_make
 ```
 If this is your first time building it, it will fail because some packages need to be installed and rosserial needs to be setup.
@@ -60,3 +60,18 @@ step 2 one terminal roscore
 step 3 one terminal rosrun rosserial_python serial_node.py /dev/ttyACM0
 step 4 send a message using rostopic pub motor_cmd std_msgs/Int16 "data: 0"
 
+## July 6th Motor Control with Arduino and Keyboard
+The purpose of this code is to move a motor via pressing U, I, O, J, K, L, M, <, >
+
+step 1 source devel/setup.bash on all terminals
+
+step 2 one terminal roscore
+
+step 3 one terminal rosrun rosserial_python serial_node.py /dev/ttyACM0
+to connect to the arduino
+
+step 4 one terminal rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+background teleop keyboard script
+
+step 5 one terminal rosrun motor_controller keyboard_script.py
+Keyboard script determining what keys run the motors
