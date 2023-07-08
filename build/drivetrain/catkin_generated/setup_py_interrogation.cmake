@@ -1,7 +1,0 @@
-set(drivetrain_SETUP_PY_SETUP_MODULE "distutils.core")
-set(drivetrain_SETUP_PY_VERSION "0.0.0")
-set(drivetrain_SETUP_PY_SCRIPTS "")
-set(drivetrain_SETUP_PY_PACKAGES "drivetrain")
-set(drivetrain_SETUP_PY_PACKAGE_DIRS "src/drivetrain")
-set(drivetrain_SETUP_PY_MODULES "")
-set(drivetrain_SETUP_PY_MODULE_DIRS "")

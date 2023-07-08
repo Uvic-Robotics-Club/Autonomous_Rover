@@ -1,2 +1,0 @@
-- setup-file:
-    local-name: /home/jetson/Autonomous_Rover/src/arduino_node/build/devel/setup.sh
